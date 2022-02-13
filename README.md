@@ -13,7 +13,7 @@ Since we will need to join both tables multiple times to perform analysis, I wou
 ``` sql
 CREATE TEMPORARY TABLE game_sales_temp
 SELECT
-	i.game_id,
+    i.game_id,
     name,
     platform,
     year,
@@ -30,15 +30,5 @@ JOIN game_sales s
 
 SELECT * FROM game_sales_temp;
 
-[Link](url) and ![Image](src)
-``` sql
+``` 
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/jchen64581/jchen.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
