@@ -1,6 +1,9 @@
 # Video Game Sales Analysis using MySQL
 Exploratory data analysis on video game sales.
 
+![pexels-pixabay-163036](https://user-images.githubusercontent.com/46164783/153789710-556da471-c27f-44d7-a00d-d392d4c6b288.jpg)
+
+
 ## About Dataset
 
 The dataset is sourced from [kaggle](https://www.kaggle.com/gregorut/videogamesales) which contains a list of video games with sales from 1980 to 2020. The dataset has 11 columns and 16598  records. I decided to drop records with null values in order to make the result of the analysis more accurate. In addition, I split the dataset into two related tables based on the principle of data normalization - the "game_info" table contains the basic information of the game, and the "game_sales" table contains the sales records of the game in various regions. 
@@ -228,4 +231,4 @@ FROM game_sales_temp;
 ```
 ![regional_sale%](https://user-images.githubusercontent.com/46164783/153787524-aeafe086-a5cc-4b16-b66a-13ad823997e4.jpg)
 ![region_sale%](https://user-images.githubusercontent.com/46164783/153787598-a55695d3-7b4f-45a8-8328-7e32268cf628.jpg)
--- North America has the half of the global sales
+- North America has the half of the global sales
